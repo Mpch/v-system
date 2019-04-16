@@ -12,7 +12,7 @@
         </transition>
       </div>
     </div>
-    <el-dialog title="收货地址" :visible.sync="isShow">
+    <el-dialog title="收货地址1" :visible.sync="isShow">
       <el-form :model="form">
         <el-form-item label="活动名称" :label-width="formLabelWidth">
           <el-input v-model="form.name" autocomplete="off"></el-input>
